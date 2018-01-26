@@ -57,7 +57,7 @@ var io = ioContract.new(
                 //================================================
                 // Blockchain Transactions
                 //================================================
-                let ClientAddress = "0x"+Sha1.hash("Wazen"+new Date().getTime());
+                let ClientAddress = web3.personal.newAccount("Wazen"+new Date().getTime()); 
                 clientaddresses.push(ClientAddress);
                 var counter=web3.eth.accounts.length;
             
