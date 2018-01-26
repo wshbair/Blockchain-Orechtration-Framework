@@ -1,5 +1,11 @@
+# University of Luxembourg/SnT
+# Wazen Shbair
+# shbair.wazen@uni.lu
+# wazen.shbair@gmail.com
+# January, 2018
+
 #!/bin/bash
-# installing ethereum and docker
+# installing ethereum 
 sudo apt-get update
 sudo apt-get -y install python-software-properties
 sudo apt-get install -y software-properties-common

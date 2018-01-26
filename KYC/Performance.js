@@ -1,3 +1,9 @@
+// University of Luxembourg/SnT
+// Wazen Shbair
+// shbair.wazen@uni.lu
+// wazen.shbair@gmail.com
+// January, 2018
+
 var Web3 = require('web3');
 const fs = require('fs');
 const solc = require('solc');

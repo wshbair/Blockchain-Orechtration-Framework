@@ -1,4 +1,9 @@
 /*
+# University of Luxembourg/SnT
+# Wazen Shbair
+# shbair.wazen@uni.lu
+# wazen.shbair@gmail.com
+# January, 2018
 
 Copyright (c) 2017 SnT and University of Luxembourg
 
@@ -175,12 +180,6 @@ function GetTransaction (address clientAddress) constant returns (bytes32  Trans
     AdditionalInfo=Transactions[clientAddress].AdditionalInfo;
     FundResource= Transactions[clientAddress].FundResource;
     }
-
-
-
-
-
-
 
 //Give Authorization
 function GiveAuthorization(address clientaddress, address bankaddress) {
