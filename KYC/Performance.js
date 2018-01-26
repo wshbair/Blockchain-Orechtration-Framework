@@ -29,6 +29,7 @@ var io = ioContract.new(
 
             console.log("Performance Test Start");
 	    console.log('start Time:'+new Date().getTime() / 1000 )
+	    var starttime=new Date().getTime() / 1000;
             console.log("----------------------------------");        
                 var p = poissonProcess.create(40000, function NewClient(){
                 delays.push(new Date().getTime() / 1000);     
@@ -96,7 +97,10 @@ var io = ioContract.new(
                                             return console.log(err);
                                         }
                                         console.log("The file was saved!");
-					console.log('End Time:'+new Date().getTime() / 1000 );    
+					var endtime=new Date().getTime() / 1000;    
+					var duration =endtime-starttime    
+					console.log('Duration:'+ duration );
+					     
                                         }); 
                                     
                                 clearInterval(timer);	
