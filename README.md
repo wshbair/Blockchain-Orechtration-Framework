@@ -14,7 +14,7 @@ This software suite is composed of the following component:
 │    ├── mining.sh 
 │    ├── privatekey.txt
 ├── KYC DAPP
-│    ├── LUXKYC.sol
+│    ├── kyc-smart-contract.sol
 │    ├── Performance.js
 │    ├── poisson-process.min.js
 ├── G5KNodeReservation.rb
