@@ -8,7 +8,9 @@ Cleaning
 echo "Cleaning"
 rm nodes.txt static-nodes.json OAR* oar*
 echo "Reservation"
-ruby G5KNodeReservation.rb $1 $2
+# $1 number of nodes
+# $2 experiment period 
+ruby g5K-nodes-reservation.rb $1 $2  
 filename="nodes.txt"
 echo 'Transfering static-nodes to network nodes'
 for host in `cat $filename`; do
