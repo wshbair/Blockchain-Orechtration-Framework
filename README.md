@@ -17,7 +17,7 @@ This software suite is composed of the following component:
 │    ├── kyc-smart-contract.sol
 │    ├── Performance.js
 │    ├── poisson-process.min.js
-├── G5KNodeReservation.rb
+├── g5K-nodes-reservation.rb
 ├── console-only.sh
 ├── mining.sh
 ├── orchestration.sh
