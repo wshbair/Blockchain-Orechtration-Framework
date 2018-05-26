@@ -49,7 +49,7 @@ ssh = Net::SSH::Multi::Session::new
 g5knodes.each { |n| ssh.use "root@#{n}" }
  ssh.exec!("sudo apt-get update")
  ssh.exec!("sudo apt-get install -y git")
- ssh.exec!("git clone https://github.com/snt-sedan/Blockchain-Testbed.git") #Download needed software
+ ssh.exec!("git clone https://github.com/wshbair/Blockchain-Orechtration-Framework.git") #Download needed software
  ssh.exec!("chmod u+x Blockchain-Testbed/Blockchain/ethereum/*.sh") #make the script executable
  ssh.exec!("Blockchain-Testbed/Blockchain/ethereum/install.sh")
  ssh.exec!("Blockchain-Testbed/Blockchain/ethereum/init.sh")#creat a user and run Gensis command
